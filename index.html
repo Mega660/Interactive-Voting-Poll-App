@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Voting Poll</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <header>Voting Poll</header>
+    <div class="totalVotes">Total Votes: <span id="total">0</span></div>
+
+    <div class="pollarea">
+        <label>
+            <div class="row">
+                <div class="column">
+                    <span class="circle"></span>
+                    <span class="text">HTML</span>
+                </div>
+                <span class="percent">0%</span>
+            </div>
+            <div class="progress" style="--w:0;"></div>
+        </label>
+
+        <label>
+            <div class="row">
+                <div class="column">
+                    <span class="circle"></span>
+                    <span class="text">Java</span>
+                </div>
+                <span class="percent">0%</span>
+            </div>
+            <div class="progress" style="--w:0;"></div>
+        </label>
+
+        <label>
+            <div class="row">
+                <div class="column">
+                    <span class="circle"></span>
+                    <span class="text">Python</span>
+                </div>
+                <span class="percent">0%</span>
+            </div>
+            <div class="progress" style="--w:0;"></div>
+        </label>
+
+        <label>
+            <div class="row">
+                <div class="column">
+                    <span class="circle"></span>
+                    <span class="text">C++</span>
+                </div>
+                <span class="percent">0%</span>
+            </div>
+            <div class="progress" style="--w:0;"></div>
+        </label>
+    </div>
+
+    <button id="resetBtn" class="reset-btn">Reset Poll</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
